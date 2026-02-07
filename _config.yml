@@ -7,8 +7,8 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: https://rasserr.github.io/resume
-author: Junbeom Gwak
+url: http://jekyllt.github.io/vitae
+author: Fábio Madeira
 
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
