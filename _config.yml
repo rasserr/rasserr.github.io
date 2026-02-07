@@ -7,7 +7,7 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://resume.rasser.kr
+url: https://rasserr.github.io/resume
 author: Junbeom Gwak
 
 # edit this section with your information
