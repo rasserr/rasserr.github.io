@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "webrick", "~> 1.7"
-gem "ffi", "< 1.17.0"
+gem "jekyll", "~> 3.9"
+gem "webrick"
+gem "kramdown-parser-gfm"
