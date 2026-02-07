@@ -13,13 +13,13 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: "/resume"
-title: "https://rasserr.github.io"
+baseurl: /resume/
+title: "Junbeom Gwak Resume"
 name: Junbeom Gwak
 email: junbeomkwak@gmail.com 
 email_full: mailto:junbeomkwak@gmail.com
 website: github.io/rasserr
-website_full: https://jekyllt.github.io/sustain
+website_full: https://github.com/rasserr
 github: trending
 twitter: Rasser_pwn
 tel: +82 10-9771-0923
