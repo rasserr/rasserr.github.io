@@ -3,28 +3,15 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
-
-permissions:
-  contents: write
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  build-and-deploy:
+  github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@v2
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
-        
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
