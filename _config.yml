@@ -14,17 +14,17 @@ author: Fábio Madeira
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /resume
-title: "Junbeom Gwak Resume"
-name: Junbeom Gwak
+title: "Rasser"
+name: Gwak Junbeom
 email: junbeomkwak@gmail.com 
 email_full: mailto:junbeomkwak@gmail.com
-website: github.io/rasserr
-website_full: https://github.com/rasserr
+website: Blog
+website_full: https://rasser.kr/
 github: rasserr
 twitter: Rasser_pwn
 tel: +82 10-9771-0923
 tel_full: tel:+821097710923
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+google_maps: ''
 address:
   street: Seoul
   postcode: 31337
