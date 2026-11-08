@@ -1,0 +1,16 @@
+{
+  "title": "Rasser",
+  "tagline": "ICS/SCADA · IoT · offensive research notes",
+  "author": "Rasser",
+  "hero": {
+    "image": "assets/hero.jpg",
+    "command": "hexdump -C profile.png",
+    "maxWidth": 640,
+    "heightRatio": 0.68
+  },
+  "links": [
+    { "label": "github", "href": "https://github.com/rasserr" },
+    { "label": "twitter", "href": "https://twitter.com/Rasser_pwn" },
+    { "label": "rasser.kr", "href": "https://rasser.kr/" }
+  ]
+}

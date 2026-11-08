@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aiden.log</title>
+<meta name="description" content="ICS/SCADA · IoT firmware · offensive research notes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="about-btn" id="aboutBtn" href="#about">about</a>
+
+<!-- ───────── home ───────── -->
+<div id="home">
+  <section class="hero">
+    <p class="prompt"><span class="ps1">$</span> <span id="heroCmd">hexdump -C hero.jpg</span><span class="caret"></span></p>
+    <pre id="dump" aria-label="hex dump rendering of the hero image"></pre>
+    <p class="probe" id="probe">&nbsp;</p>
+    <a class="scroll-cue" href="#posts">↓ posts</a>
+  </section>
+
+  <section class="posts" id="posts">
+    <header class="site-head">
+      <h1 id="siteTitle">aiden.log</h1>
+      <p class="tagline" id="siteTagline"></p>
+      <nav class="links" id="siteLinks"></nav>
+    </header>
+
+    <div class="list-head">
+      <span id="count" class="dim"></span>
+      <span id="tagbar" class="tagbar"></span>
+    </div>
+    <ol class="post-list" id="postList"></ol>
+  </section>
+</div>
+
+<!-- ───────── single post ───────── -->
+<article id="post" hidden>
+  <nav class="post-nav"><a href="#posts" class="back">← cd ..</a><span class="dim" id="postPath"></span></nav>
+  <header class="post-head">
+    <h1 id="postTitle"></h1>
+    <p class="meta" id="postMeta"></p>
+  </header>
+  <div class="prose" id="postBody"></div>
+  <nav class="pager" id="pager"></nav>
+</article>
+
+<!-- ───────── about / resume ───────── -->
+<article id="about" hidden>
+  <nav class="post-nav"><a href="#posts" class="back">← cd ..</a><span class="dim">about.md</span></nav>
+  <div class="prose resume" id="aboutBody"></div>
+</article>
+
+<footer class="site-foot"><span id="footText"></span></footer>
+
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/vendor/highlight.min.js"></script>
+<script src="assets/vendor/x86asm.min.js"></script>
+<script src="assets/hexdump.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
